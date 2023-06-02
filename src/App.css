@@ -57,9 +57,19 @@ input{
   white-space: normal;
 }
 
+/* divisão geral das divs */
+#geral{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
 /*divisão da media de gols */
 #mediaGols {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
   background-color: #b5b5b5;
   color: black;
   border-width: 20px;
@@ -73,13 +83,16 @@ input{
 
 /* divisão da media de escanteios */
 #mediaEscanteios{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
   background-color: #b5b5b5;
   color: black;
   border-width: 20px;
   border-color: #16151A;
   padding: 1%;
-  margin: 5px;
+  margin: 1px;
   border: 2px solid;
   border-radius: 20px;
   border-color: #000000;
@@ -87,7 +100,10 @@ input{
 
 /* divisão da media de cartões */
 #mediaCartoes{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
   background-color: #b5b5b5;
   color: black;
   border-width: 20px;

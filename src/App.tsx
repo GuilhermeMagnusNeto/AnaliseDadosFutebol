@@ -4,14 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Main" >
+    <div className="Main">
       {/* Cabeçalho */}
       <header className='cabecalho'>
         <h1>Análise de Jogos</h1>
       </header>
-
       <main className='principal'>
-
         {/* Caixar de pesquisa e botão */}
         <form>
           <div id='caixaPesquisa'>
@@ -23,10 +21,9 @@ function App() {
           <button id="botaoBuscar" type='submit'>Buscar</button>
         </form>
         
-      
+      <div id='geral'>
         {/* parte da media de gols */}
         <div id='mediaGols'>
-          
           <h2>Média de gols feito em casa: 2.5</h2>
           <h2>Média de gols sofridos em casa: 2.5</h2>
           
@@ -35,7 +32,6 @@ function App() {
   
           <h2>Média de gols feitos no total: 1.3</h2>
           <h2>Média de gols sofridos no total: 1.3</h2>
-          
         </div>
 
         {/* parte da media de escanteios */}
@@ -61,6 +57,8 @@ function App() {
           <h2>Média de cartões tomados no total: 1.3</h2>
           <h2>Média de cartões adversário no total: 1.3</h2>
         </div>
+      </div>
+        
       </main>
 
       <footer className='rodape'>
