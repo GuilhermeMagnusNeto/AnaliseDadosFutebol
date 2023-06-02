@@ -18,13 +18,27 @@
   padding-top: 1.5%;
   color: #FAF9F9;
 }
-/*area e botão de busca de times*/
-#campoBuscar{
-  width: 45%;
-  margin-right: 0.5%;
+
+/*campos de busca*/
+#caixaPesquisa{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 0.1%;
   padding: 0.5%;
 }
- 
+
+input{
+  display: flex;
+  width: 45%;
+  padding: 0.5%;
+  border-width: 2px;
+  border-color: #1d3324;
+  border-radius: 5px;
+}
+
+/*botao de pesquisa*/ 
 #botaoBuscar{
   background-color: #2b643c;
   color: #faf9f9;
@@ -41,6 +55,48 @@
   border-color: black;
   border-radius: 10%;
   white-space: normal;
+}
+
+/*divisão da media de gols */
+#mediaGols {
+  display: inline-block;
+  background-color: #b5b5b5;
+  color: black;
+  border-width: 20px;
+  border-color: #16151A;
+  padding: 1%;
+  margin: 1px;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+/* divisão da media de escanteios */
+#mediaEscanteios{
+  display: inline-block;
+  background-color: #b5b5b5;
+  color: black;
+  border-width: 20px;
+  border-color: #16151A;
+  padding: 1%;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+/* divisão da media de cartões */
+#mediaCartoes{
+  display: inline-block;
+  background-color: #b5b5b5;
+  color: black;
+  border-width: 20px;
+  border-color: #16151A;
+  padding: 1%;
+  margin: 1px;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 /*toda parte do rodape do codigo*/
