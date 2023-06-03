@@ -24,45 +24,45 @@ function App() {
       <div id='geral'>
         {/* parte da media de gols */}
         <div id='mediaGols'>
-          <h2>Média de gols feito em casa: 2.5</h2>
-          <h2>Média de gols sofridos em casa: 2.5</h2>
+          <pre><h2>Média de gols feito em casa: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de gols sofridos em casa: <span id='resultado'>2.5</span></h2></pre>
           
-          <h2>Média de gols feitos fora: 7.0</h2>
-          <h2>Média de gols sofridos fora: 7.0</h2>
+          <pre><h2>Média de gols feitos fora: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de gols sofridos fora: <span id='resultado'>2.5</span></h2></pre>
   
-          <h2>Média de gols feitos no total: 1.3</h2>
-          <h2>Média de gols sofridos no total: 1.3</h2>
+          <pre><h2>Média de gols feitos no total: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de gols sofridos no total: <span id='resultado'>2.5</span></h2></pre>
         </div>
 
         {/* parte da media de escanteios */}
         <div id='mediaEscanteios'>
-          <h2>Média de escanteios a favor em casa: 2.5</h2>
-          <h2>Média de escanteios contra em casa: 2.5</h2>
+          <pre><h2>Média de escanteios a favor em casa: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de escanteios contra em casa: <span id='resultado'>2.5</span></h2></pre>
           
-          <h2>Média de escanteios a favor fora: 7.0</h2>
-          <h2>Média de escanteios contra fora: 7.0</h2>
+          <pre><h2>Média de escanteios a favor fora: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de escanteios contra fora: <span id='resultado'>2.5</span></h2></pre>
   
-          <h2>Média de escanteios a favor no total: 1.3</h2>
-          <h2>Média de escanteios contra no total: 1.3</h2>
+          <pre><h2>Média de escanteios a favor no total: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de escanteios contra no total: <span id='resultado'>2.5</span></h2></pre>
         </div>
 
         {/* parte da media de cartões */}
         <div id='mediaCartoes'>
-          <h2>Média de cartões tomados em casa: 2.5</h2>
-          <h2>Média de cartões adversário em casa: 2.5</h2>
+          <pre><h2>Média de cartões tomados em casa: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de cartões adversário em casa: <span id='resultado'>2.5</span></h2></pre>
           
-          <h2>Média de cartões tomados fora: 7.0</h2>
-          <h2>Média de cartões adversário fora: 7.0</h2>
+          <pre><h2>Média de cartões tomados fora: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de cartões adversário fora: <span id='resultado'>2.5</span></h2></pre>
   
-          <h2>Média de cartões tomados no total: 1.3</h2>
-          <h2>Média de cartões adversário no total: 1.3</h2>
+          <pre><h2>Média de cartões tomados no total: <span id='resultado'>2.5</span></h2></pre>
+          <pre><h2>Média de cartões adversário no total: <span id='resultado'>2.5</span></h2></pre>
         </div>
       </div>
         
       </main>
 
       <footer className='rodape'>
-        <p>TODOS OS DIREITOS RESEVADOS</p>
+        <p id='footer'>TODOS OS DIREITOS RESEVADOS</p>
       </footer>
     </div>
   );

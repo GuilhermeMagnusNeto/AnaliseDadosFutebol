@@ -2,7 +2,7 @@
 .cabecalho{
   margin: 0px;
   padding: 10px;
-  width: 100%;
+  width: auto;
   height: 100%;
   text-align: center;
   background-color: #16151a;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  width: auto;
   margin-bottom: 0.1%;
   padding: 0.5%;
 }
@@ -72,10 +72,10 @@ input{
   position: relative;
   background-color: #b5b5b5;
   color: black;
-  border-width: 20px;
   border-color: #16151A;
   padding: 1%;
   margin: 1px;
+  margin-bottom: 2%;
   border: 2px solid;
   border-radius: 20px;
   border-color: #000000;
@@ -89,10 +89,10 @@ input{
   position: relative;
   background-color: #b5b5b5;
   color: black;
-  border-width: 20px;
   border-color: #16151A;
   padding: 1%;
   margin: 1px;
+  margin-bottom: 2%;
   border: 2px solid;
   border-radius: 20px;
   border-color: #000000;
@@ -106,17 +106,42 @@ input{
   position: relative;
   background-color: #b5b5b5;
   color: black;
-  border-width: 20px;
   border-color: #16151A;
   padding: 1%;
   margin: 1px;
+  margin-bottom: 2%;
   border: 2px solid;
   border-radius: 20px;
   border-color: #000000;
 }
 
+/* textos das divs */
+h2{
+  display: flex;
+  align-items: center;
+  font-size: 100%;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#1d3324;
+  border-bottom: 2px solid;
+  border-color: #444444;
+  padding-bottom: 40px;
+}
+
+#resultado{
+  color: #2b643c;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  color: #2b643c;
+}
+
 /*toda parte do rodape do codigo*/
-.rodape{
+#footer{
   background-color: #16151A;
   color: #faf9f9;
+  margin: 0px;
+  justify-content: center;
 }
