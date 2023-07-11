@@ -9,7 +9,7 @@ function App() {
       </header>
       <main className='principal'>
         {/* Caixar de pesquisa e botão */}
-        <form>
+        <form method='get' action='/'>
           <div id='caixaPesquisa'>
             <input type="text" placeholder="Buscar time" id='nomeTime'/>
           </div>
